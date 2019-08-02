@@ -1,12 +1,13 @@
 body {
     color: #28292b;
     font-size: 1em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Shadows Into Light', cursive;
     background-color: rgb(243,208,208)
 }
 
 head {
     float: center;
+    font-family: 'Shadows Into Light', cursive;
 
 }
 
@@ -16,18 +17,15 @@ head {
     padding: 20px;
     background: white;
     overflow: auto;
-
 }
 
-#main-col {
-    width: 500px;
-    float: left;
-
+#linkbox {
+    float: right;
 }
 
-p {
+.p {
     margin: 10 10 100px 50;
-    float: left;
+    float: right;
 
 }
 
