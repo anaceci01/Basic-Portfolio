@@ -1,0 +1,60 @@
+body {
+    color: #28292b;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(243,208,208)
+}
+
+head {
+    float: center;
+
+}
+
+#page-wrap {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    overflow: auto;
+
+}
+
+#main-col {
+    width: 500px;
+    float: left;
+
+}
+
+p {
+    margin: 10 10 100px 50;
+    float: left;
+
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    background-color: coral;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}   
+
+#bio {
+    width: 500px;
+    float: left;
+}
+
+img {
+    max-width: 35%;
+    float: right;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+section {
+    float:left;
+}
+
