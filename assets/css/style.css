@@ -5,22 +5,25 @@ body {
     background-color: rgb(243,208,208)
 }
 
-head {
-    float: center;
-    font-family: 'Shadows Into Light', cursive;
 
+
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
 }
 
 #page-wrap {
-    width: 500px;
+    width: 750px;
+    height: 500px;
     margin: auto;
     padding: 20px;
     background: white;
     overflow: auto;
 }
 
-#linkbox {
+.linkbox {
     float: right;
+    height: 1000px;
 }
 
 .p {
@@ -34,11 +37,21 @@ head {
 }
 
 header {
+    height: 50px;
     background-color: coral;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }   
+
+footer {
+    height: 20px;
+    background-color: rgb(236, 158, 158);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+
+}
 
 #bio {
     width: 500px;
