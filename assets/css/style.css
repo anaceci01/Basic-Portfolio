@@ -6,7 +6,6 @@ body {
 }
 
 
-
 .paragraph {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
@@ -34,22 +33,40 @@ body {
 
 .clear {
     clear: both;
-}
+}  
 
-header {
-    height: 50px;
-    background-color: coral;
-    text-align: left;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.topnav {
+    overflow: hidden;
+    background-color: #4aaaa5;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #6ae6df;
+    color: #4aaaa5;
+  }
+  
+  .topnav a.active {
+    background-color: #2f8580;
+    color: white;
+  }
 
-}   
 
 footer {
     height: 20px;
-    background-color: rgb(236, 158, 158);
+    background-color: #666666;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
+
 
 }
 
@@ -69,3 +86,19 @@ section {
     float:left;
 }
 
+.gallery {
+    margin:5px;
+    border: 1px solid #ccc;
+    float:auto;
+    width:180;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+}
